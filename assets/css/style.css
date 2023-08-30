@@ -1,0 +1,49 @@
+@import url('https://fonts.cdnfonts.com/css/gotham-6');
+
+* {
+    padding: 0 0;
+    margin: 0 0;
+    box-sizing: border-box;
+    font-family: 'Gotham', sans-serif;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+    background-image: url('../img/7758997.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title-top p {
+    font-size: 20px;
+    color: white;
+    font-size: 100px;
+}
+
+span {
+    color: cornflowerblue;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.showimg img {
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.showimg img:hover {
+    transform: scale(1.02);
+    transition: all 0.4s;
+}

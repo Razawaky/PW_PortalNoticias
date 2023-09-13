@@ -47,3 +47,22 @@ h1 {
     transform: scale(1.02);
     transition: all 0.4s;
 }
+
+.direitos {
+    color: rgba(255, 255, 255, 0.466) !important;
+}
+
+h6 {
+    color: #fff !important;
+}
+
+.icon {
+    color: #fff;
+    font-size: 10vh;
+}
+
+.icons {
+    color: #fff;
+    font-size: 30px;
+}
+

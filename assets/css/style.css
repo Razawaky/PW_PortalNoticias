@@ -7,12 +7,49 @@
     font-family: 'Gotham', sans-serif;
 }
 
+/* ___________ BARRA DE NAVEGAÇÃO ______________*/
+
+.nav-bar {
+    background-color: transparent !important;
+    width: 100%;
+    padding: 30px 1%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.4s;
+}
+
+.nav-bar.scrolar {
+    background-color: #000 !important;
+    padding: 20px 1%;
+}
+
+.nav-bar.scrolar a {
+    color: #6affa3;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-bar ul li a{
+    color: rgba(33, 37, 41, 0.75);
+    text-decoration: none;
+}
+
+.nav-bar span {
+    text-decoration: none;
+    color: #6affa3;
+}
+
+/* ___________ BARRA DE NAVEGAÇÃO ______________*/
 .banner {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 40vh;
+    height: 50vh;
     background-image: url('../img/7758997.jpg');
     background-position: center;
     background-size: cover;

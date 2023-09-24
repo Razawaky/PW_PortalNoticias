@@ -64,7 +64,7 @@
 }
 
 span {
-    color: cornflowerblue;
+    color: rgb(87, 146, 255);
 }
 
 p {
@@ -101,5 +101,11 @@ h6 {
 .icons {
     color: #fff;
     font-size: 30px;
+    transition: all .5s;
+}
+
+.icons:hover {
+    color: rgb(87, 146, 255);
+    transition: all .5s;
 }
 

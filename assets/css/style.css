@@ -22,10 +22,14 @@
 .nav-bar.scrolar {
     background-color: #000 !important;
     padding: 20px 1%;
+    -webkit-box-shadow: -1px 7px 27px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 7px 27px -7px rgba(0,0,0,0.75);
+    box-shadow: -1px 7px 27px -7px rgba(0,0,0,0.75);
 }
 
 .nav-bar.scrolar a {
-    color: rgb(87, 146, 255);
+    /* color: rgb(87, 146, 255); */
+    color: #fff;
 }
 
 .nav-bar ul li {
@@ -38,11 +42,10 @@
     text-decoration: none;
 }
 
-.nav-bar span {
-    text-decoration: none;
-    color: #6affa3;
-}
 
+.navega-texto a{
+    color: rgb(255, 255, 255) !important;
+}
 /* ___________ BARRA DE NAVEGAÇÃO ______________*/
 .banner {
     display: flex;
@@ -109,3 +112,39 @@ h6 {
     transition: all .5s;
 }
 
+.carousel-item img {
+    transition: all 0.4s;
+    filter: blur(3px) !important;
+}
+.carousel-item img:hover {
+    filter: blur(0px) !important;
+    transition: all 0.4s;
+}
+/* ___________ TEXTO NA IMAGEM ______________*/
+.dados {
+    bottom: 100px;
+    right: 20px;
+}
+.text {
+    color: #ffffff !important; 
+    position: absolute;
+    top: 50px;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.noticiaimg img{
+    width: 100%;
+    height: auto;
+    filter: blur(1px) !important;
+    transition: all 0.4s;
+}
+
+.noticiaimg img:hover {
+    filter: blur(0px) !important;
+    transition: all 0.4s;
+}
+/* ___________ TEXTO NA IMAGEM ______________*/

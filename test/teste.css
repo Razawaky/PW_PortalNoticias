@@ -43,3 +43,23 @@
     text-decoration: none;
     color: #6affa3;
 }
+
+.dados {
+    bottom: 100px;
+    right: 20px;
+}
+.text {
+    color: #ffffff !important; 
+    position: absolute;
+    top: 50px;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+.noticiaimg img{
+    width: 100%;
+    height: auto;
+}

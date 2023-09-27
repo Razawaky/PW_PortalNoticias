@@ -5,6 +5,7 @@
     margin: 0 0;
     box-sizing: border-box;
     font-family: 'Gotham', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* ___________ BARRA DE NAVEGAÇÃO ______________*/
@@ -46,13 +47,18 @@
 .navega-texto a{
     color: rgb(255, 255, 255) !important;
 }
+
+.hamburg {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
 /* ___________ BARRA DE NAVEGAÇÃO ______________*/
 .banner {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 50vh;
+    height: 100vh;
     background-image: url('../img/7758997.jpg');
     background-position: center;
     background-size: cover;
@@ -126,7 +132,7 @@ h6 {
     right: 20px;
 }
 .text {
-    color: #ffffff !important; 
+    color: #fff !important; 
     position: absolute;
     top: 50px;
     left: 56%;
@@ -134,6 +140,8 @@ h6 {
     font-size: 20px;
     font-weight: 400;
     overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.295);
+    width: 49vh;
 }
 
 .noticiaimg img{

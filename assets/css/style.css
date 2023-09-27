@@ -45,7 +45,7 @@
 
 
 .navega-texto a{
-    color: rgb(255, 255, 255) !important;
+    color: #5792FF !important;
 }
 
 .hamburg {
@@ -59,7 +59,7 @@
     align-items: center;
     text-align: center;
     height: 100vh;
-    background-image: url('../img/7758997.jpg');
+    background-image: url('../img/wallpaper.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
